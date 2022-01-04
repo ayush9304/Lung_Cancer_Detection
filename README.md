@@ -15,6 +15,12 @@ This project is about segmentation of nodules in CT scans using 2D U-Net Convolu
 - tensorflow
 - matplotlib
 
+## Run on custom image
+```
+py custom_image_input.py <image>
+```
+replace ```<image>``` with image location
+
 ## Dataset
 The [LUNA16](https://luna16.grand-challenge.org/) dataset has been used in this project. 
 
