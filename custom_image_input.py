@@ -19,7 +19,7 @@ def dice_coef(y_true, y_pred):
 def dice_coef_loss(y_true, y_pred):
     return -dice_coef(y_true, y_pred)
 
-model = tf.keras.models.load_model("UNet_Model.h5", custom_objects={'dice_coef':dice_coef, 'dice_coef_loss':dice_coef_loss})
+model = tf.keras.models.load_model("models/UNet_Model.h5", custom_objects={'dice_coef':dice_coef, 'dice_coef_loss':dice_coef_loss})
 
 def preprocess(img):
     img = cv2.normalize(img, None, 0, 255, cv2.NORM_MINMAX)
