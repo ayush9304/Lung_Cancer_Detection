@@ -32,8 +32,9 @@ The CT-Scans images passed through various preprocessing steps before inputting 
 - Extracting Lungs
 - Extracting nodule masks
 
+<p align="center">
 <img width="737" alt="preprocessing_steps" src="https://user-images.githubusercontent.com/56977388/159730154-3681fc46-ca6c-4862-b779-1abb8b480887.png">
-
+</p>
 
 ## Training
 I used a 2D UNet convolutional neural network architecture which is mainly used for 
@@ -43,15 +44,24 @@ contained three main blocks, downsampling, upsampling, and concatenation.
 The dice coefficient loss is selected as the loss function. Dice coefficient as is often used 
 in medical image segmentation.
 
-![image](https://user-images.githubusercontent.com/56977388/148122554-fdd46ffb-97ac-4cd3-807b-25a2c1b405fa.png)
+<p align="center">
+<img width="680" alt="unet architecture" src="https://user-images.githubusercontent.com/56977388/148122554-fdd46ffb-97ac-4cd3-807b-25a2c1b405fa.png">
+</p>
 
 This model was able to achieve a dice score of 0.81 in training data and 0.68 on test data. The model was trained for 94 epochs.
 
-![image](https://user-images.githubusercontent.com/56977388/148122622-71cf02be-11f1-4997-9d8d-6ab0ee497ff2.png)
+<p align="center">
+<img width="600" alt="unet accuracy" src="https://user-images.githubusercontent.com/56977388/148122622-71cf02be-11f1-4997-9d8d-6ab0ee497ff2.png">
+</p>
+
+<!-- ![image](https://user-images.githubusercontent.com/56977388/148122622-71cf02be-11f1-4997-9d8d-6ab0ee497ff2.png) -->
 
 ## Result
 
-![image](https://user-images.githubusercontent.com/56977388/148122681-983d9e70-e5b6-4081-9fb7-233b5941bf9c.png)
+<p align="center">
+<img alt="result" src="https://user-images.githubusercontent.com/56977388/148122681-983d9e70-e5b6-4081-9fb7-233b5941bf9c.png">
+<!-- ![image](https://user-images.githubusercontent.com/56977388/148122681-983d9e70-e5b6-4081-9fb7-233b5941bf9c.png) -->
+</p>
 
 ## License
 
