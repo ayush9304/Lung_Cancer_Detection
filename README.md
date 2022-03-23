@@ -32,6 +32,9 @@ The CT-Scans images passed through various preprocessing steps before inputting 
 - Extracting Lungs
 - Extracting nodule masks
 
+<img width="737" alt="preprocessing_steps" src="https://user-images.githubusercontent.com/56977388/159730154-3681fc46-ca6c-4862-b779-1abb8b480887.png">
+
+
 ## Training
 I used a 2D UNet convolutional neural network architecture which is mainly used for 
 image segmentation. U-net is an encoder-decoder deep learning model which is known to 
