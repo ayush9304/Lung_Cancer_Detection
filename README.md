@@ -49,3 +49,7 @@ This model was able to achieve a dice score of 0.81 in training data and 0.68 on
 ## Result
 
 ![image](https://user-images.githubusercontent.com/56977388/148122681-983d9e70-e5b6-4081-9fb7-233b5941bf9c.png)
+
+## License
+
+Licensed under the MIT License.
