@@ -48,7 +48,7 @@ in medical image segmentation.
 <img width="680" alt="unet architecture" src="https://user-images.githubusercontent.com/56977388/148122554-fdd46ffb-97ac-4cd3-807b-25a2c1b405fa.png">
 </p>
 
-This model was able to achieve a dice score of 0.81 in training data and 0.68 on test data. The model was trained for 94 epochs.
+This model was able to achieve a dice score of <code>0.81</code> in training data and <code>0.68</code> on test data. The model was trained for 94 epochs.
 
 <p align="center">
 <img width="600" alt="unet accuracy" src="https://user-images.githubusercontent.com/56977388/148122622-71cf02be-11f1-4997-9d8d-6ab0ee497ff2.png">
