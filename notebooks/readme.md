@@ -1,7 +1,11 @@
 # Notebooks
-- **01_Lungs_Segmentation.ipynb** : Code to visualize lungs segmentation
-- **02_Nodule_Mask_Extraction.ipynb** : Code to visualize nudule mask segmentation
-- **03_Lungs ROI & Nodule Mask extraction from LUNA16 dataset.ipynb** : Actual Code to extract lungs and nodule masks from LUNA dataset
-- **04_Dataset_Preparation.ipynb** : Combining extracted lungs and masks into single file for training
-- **05_UNet_Training.ipynb** : Code for training UNet model
-- **06_Ground_Truth_vs_Prediction_visualization.ipynb** : Visualizing GroundTruth vs Prediction
+- **01_Lungs_Segmentation.ipynb** : Code to visualize lungs segmentation.
+- **02_Nodule_Mask_Extraction.ipynb** : Code to visualize nudule mask segmentation.
+- **03_Lungs ROI & Nodule Mask extraction from LUNA16 dataset.ipynb** : Actual Code to extract lungs and nodule masks from LUNA dataset.
+- **04_Dataset_Preparation.ipynb** : Combining extracted lungs and masks into single file for training.
+- **05_UNet_Training.ipynb** : Code for training UNet model.
+- **06_Ground_Truth_vs_Prediction_visualization.ipynb** : Visualizing GroundTruth vs Prediction.
+- **07_FPR_Candidate_ROI_extraction.ipynb** : Code to extract nodule candidates for False Positive Reduction (FPR).
+- **08_FPR_Dataset_Creation.ipynb** : Train-Test Split for training False Positive Reduction (FPR) classifier.
+- **09_FPR_CNN_Training.ipynb** : Code for training FPR Classifier model.
+- **10_LC_FPR_CNN_Evaluation.ipynb** : Creating Confusion Matrix for evaluation of FPR model.
