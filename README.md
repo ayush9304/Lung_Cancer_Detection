@@ -48,10 +48,12 @@ in medical image segmentation.
 <img width="680" alt="unet architecture" src="https://user-images.githubusercontent.com/56977388/148122554-fdd46ffb-97ac-4cd3-807b-25a2c1b405fa.png">
 </p>
 
-This model was able to achieve a dice score of <code>0.80</code> in training data and <code>0.69</code> on test data. The model was trained for 94 epochs.
+This model was able to achieve a dice score of <code>0.83</code> in training data and <code>0.75</code> on test data. The model was trained for 94 epochs.
 
 <p align="center">
-<img width="600" alt="unet accuracy" src="https://user-images.githubusercontent.com/56977388/148122622-71cf02be-11f1-4997-9d8d-6ab0ee497ff2.png">
+<!-- <img width="600" alt="unet accuracy" src="https://user-images.githubusercontent.com/56977388/148122622-71cf02be-11f1-4997-9d8d-6ab0ee497ff2.png"> -->
+<img width="600" alt="unet accuracy" src="https://user-images.githubusercontent.com/56977388/171506203-3ac08d79-8146-44d9-979e-fe17d2eb5ff5.png">
+
 </p>
 
 <!-- ![image](https://user-images.githubusercontent.com/56977388/148122622-71cf02be-11f1-4997-9d8d-6ab0ee497ff2.png) -->
@@ -59,7 +61,9 @@ This model was able to achieve a dice score of <code>0.80</code> in training dat
 ## Result
 
 <p align="center">
-<img alt="result" src="https://user-images.githubusercontent.com/56977388/148122681-983d9e70-e5b6-4081-9fb7-233b5941bf9c.png">
+<!-- <img alt="result" src="https://user-images.githubusercontent.com/56977388/148122681-983d9e70-e5b6-4081-9fb7-233b5941bf9c.png"> -->
+<img alt="result" src="https://user-images.githubusercontent.com/56977388/171507556-703b848b-2b8a-4329-b056-10367c40c856.png">
+
 <!-- ![image](https://user-images.githubusercontent.com/56977388/148122681-983d9e70-e5b6-4081-9fb7-233b5941bf9c.png) -->
 </p>
 
