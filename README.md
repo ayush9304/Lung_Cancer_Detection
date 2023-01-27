@@ -27,7 +27,7 @@ The [LUNA16](https://luna16.grand-challenge.org/) dataset has been used in this 
 ## Preprocessing
 The CT-Scans images passed through various preprocessing steps before inputting it to U-Net model for more accurate result. These processes includes segmenting the ROI (the lungs) from the surrounding regions of bones and fatty tissues. These include
 - Binary Thresholding
-- Erosion & Dilation for for removing noise
+- Erosion & Dilation for removing noise
 - Filling Holes by contours
 - Extracting Lungs
 - Extracting nodule masks
