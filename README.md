@@ -60,7 +60,7 @@ This model was able to achieve a dice score of <code>0.83</code> in training dat
 
 ## Result
 
-Below shown predictions on randomly chosen test sample. In Each box left figure shows lung with highlighted tumor in white and right figure shows predicted tumor highlighted in white.
+Below shown predictions on randomly chosen test sample. In Each box left figure shows lung with actual tumor highlighted in white and right figure shows predicted tumor highlighted in white.
 
 <p align="center">
 <!-- <img alt="result" src="https://user-images.githubusercontent.com/56977388/148122681-983d9e70-e5b6-4081-9fb7-233b5941bf9c.png"> -->
